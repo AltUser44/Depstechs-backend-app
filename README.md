@@ -19,3 +19,51 @@ Real-World Security: JWT authentication, password hashing, and middleware integr
 Deployment: Learn how to deploy and maintain the app on Vercel.
 
 This project is perfect for aspiring full-stack developers, entrepreneurs, and students who want to build scalable, secure web applications and learn how to create a fully functional e-commerce platform.
+
+How to Download and Set Up the MERN Stack E-Commerce Clone:
+Clone the Repository Run the following command to clone the repository:
+
+bash
+Copy code
+git clone https://github.com/your-username/your-repository-name.git
+Install Dependencies Navigate to the project directory and install dependencies:
+
+For backend:
+bash
+Copy code
+cd backend
+npm install
+For frontend:
+
+bash
+Copy code
+cd ../frontend
+npm install
+Set Up Environment Variables Create .env files in both backend and frontend directories.
+
+Backend (.env):
+
+bash
+Copy code
+DB_URL=your-mongo-db-connection-url
+JWT_SECRET=your-jwt-secret
+STRIPE_SECRET_KEY=your-stripe-secret-key
+Frontend (.env):
+
+bash
+Copy code
+REACT_APP_API_URL=http://localhost:5000
+Run the Servers Start the backend server:
+
+bash
+Copy code
+cd backend
+npm run dev
+Start the frontend server:
+
+bash
+Copy code
+cd ../frontend
+npm start
+Access the App Open your browser and go to http://localhost:3000 to view the application.
+
